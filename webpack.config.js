@@ -1,11 +1,11 @@
 module.exports = {
-  module: {
-    loaders: [
-      {
-        test: /\.js/,
-        loader: 'babel-loader',
-        include: __dirname + '/src',
-       }
-    ],
-  }
+    module: {
+        rules: [
+            {
+                test: /\.js/,
+                loader: 'babel-loader',
+                include: __dirname + '/src',
+            }
+        ],
+    }
 };
